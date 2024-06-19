@@ -3,7 +3,7 @@ package in.aryan.core;
 import com.lcwd.core.couple.Animal;
 import org.springframework.stereotype.Component;
 
-//@Component
+@Component
 public class Mouse implements Animal {
     @Override
     public void play() {

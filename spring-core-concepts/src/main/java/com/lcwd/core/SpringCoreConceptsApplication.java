@@ -9,7 +9,7 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-//@ComponentScan(basePackages = {"in.aryan.core"})
+@ComponentScan(basePackages = {"in.aryan.core", "com.lcwd.core"})
 public class SpringCoreConceptsApplication {
 
     public static void main(String[] args) {
